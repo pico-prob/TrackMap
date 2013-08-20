@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tracking_interval">1000</string>
+    <string name="min_tracking_distance">10</string>
+    <string name="app_path_image">/TrackMap/Media/Images/</string>
+    <string name="app_path_video">/TrackMap/Media/Videos/</string>
+    <string name="db_filename">TrackMap.db</string>
+    <string name="webhelp_url">https://studi.f4.htw-berlin.de/~s0523478/android/help_index.html</string>
+</resources>

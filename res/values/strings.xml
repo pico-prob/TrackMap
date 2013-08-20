@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TrackMap</string>
+    <string name="action_settings">Settings</string>
+    <!-- Main Menu -->
+    <string name="welcome">The route-mapper for making you, Mr. Brombach, Magnus and Mathias happy!</string>
+    <string name="splashscreen">Splash</string>
+    <string name="start">Start</string>
+    <string name="actual_journey">Currently\nTracked</string>
+    <string name="history">History</string>
+    <string name="help">Help</string>
+    <!-- RouteStart -->
+    <string name="label_route_note">Add a note here</string>
+    <string name="label_route_title">Add title here</string>
+    <string name="label_btn_route_start">Start Tracking</string>
+    <string name="routeStarter_msg_missing_title">Trackmap: Route-Title is missing!</string>
+    <string name="routeStarter_msg_missing_gps">Trackmap: GPS-Tracking is disabled!</string>
+    <string name="routeStarter_msg_allready_tracking">Trackmap: You are currently tracking a route.</string>
+    <!-- History -->
+    <string name="label_btn_routehistory">All Routes</string>
+    <string name="label_btn_poihistory">All POIs</string>
+    <string name="headline_history_poi">POIs</string>
+    <string name="headline_history_route">Routes</string>
+    <string name="history_route_title_missing">   [Title missing]</string>
+    <!-- Map -->
+    <string name="label_btn_addPoi">Add POI</string>
+    <string name="label_btn_pauseTracking">Pause/\nResume</string>
+    <string name="label_btn_stopTracking">Stop Tracking</string>
+    <string name="label_btn_play">Play/\nPause</string>
+    <string name="label_btn_next">Next</string>
+    <string name="label_btn_previous">Previous</string>
+    <string name="start">Start</string>
+    <string name="actual_journey">Actual Journey</string>
+    <string name="history">History</string>
+    <string name="help">Help</string>
+    <string name="map_msg_allready_poi_set">Trackmap: You have allready set an Poi here.</string>
+    <!-- PoiEditor -->
+    <string name="label_btnPhoto">Foto</string>
+    <string name="label_btnVideo">Video</string>
+    <string name="label_btnVideoPlay">Play Video</string>
+    <string name="label_btnPoiSave">Save</string>
+    <string name="label_btnPoiOK">OK</string>
+    <string name="label_btnPoiCancel">Cancel</string>
+    <string name="label_poitextteaser">Enter note here..</string>
+    <!-- Tracking -->
+    <string name="trackingService_msg_started">Trackmap: GPS-Tracking is running.</string>
+    <string name="trackingService_msg_stopped">Trackmap: GPS-Tracking is stopped.</string>
+    <string name="trackingService_msg_gps_missing">Trackmap: GPS-Receiver deactvated!</string>
+    <string name="trackingService_msg_gps_active">Trackmap: GPS-Receiver activated!</string>
+    <string name="trackingService_msg_route_missing">Trackmap: Tracking Error - No ongoing-tracking Route found</string>
+    <!-- comprahensive -->
+    <string name="comp_msg_dberror">Trackmap: There was an Error with the DB!</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- files -->
+    <string name="file_not_exists">The needed file does not exist!</string>
+    <string name="title_activity_video_player">VideoPlayer</string>
+    <string name="title_activity_show_help">ShowHelpActivity</string>
+	<!-- help -->
+	<string name="help_msg_offline">Trackmap: Internet-Connection Missing</string>
+	
+</resources>

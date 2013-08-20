@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="vertical"
+   android:background="@color/madeira"
+   tools:context=".History" >
+   
+	<TextView
+       android:id="@+id/text_ListState"
+       android:layout_width="match_parent"
+       android:textSize="30sp"
+       android:textStyle="bold"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:gravity="center"
+       android:text="@string/label_btnPhoto"/>
+    <ListView
+       android:id="@+id/lv_historytable"
+       android:layout_height="0dp"
+       android:layout_weight="6"
+       android:layout_width="match_parent"
+       android:layout_marginTop="10dp"
+       android:text="@string/label_btnVideo" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:layout_weight="1.58"
+        android:baselineAligned="false"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_routehistory"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/label_btn_routehistory" />
+
+        <Button
+            android:id="@+id/btn_poihistory"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/label_btn_poihistory" />
+    </TableRow>
+</LinearLayout>
+    
+ 

@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="@color/madeira"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/txt_poiNoteText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="@string/label_poitextteaser" />
+    <TableRow
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:baselineAligned="false"
+        android:layout_margin="10dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_takeFoto"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/label_btnPhoto" />
+
+        <Button
+            android:id="@+id/btn_takeVideo"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/label_btnVideo" />
+        
+         <Button
+             android:id="@+id/btn_poi_save"
+             android:layout_width="0dp"
+             android:layout_height="50dp"
+             android:layout_weight="1"
+             android:text="@string/label_btnPoiSave" />
+        
+         <Button
+             android:id="@+id/btn_poi_cancel"
+             android:layout_width="0dp"
+             android:layout_height="50dp"
+             android:layout_weight="1"
+             android:text="@string/label_btnPoiCancel" />
+        
+    </TableRow>
+    <ImageView
+	    android:id="@+id/image_view_for_poi"
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content"
+         android:scaleType="center" 
+         android:background="#000000" 
+         android:contentDescription="@string/app_name" /> 
+    
+</LinearLayout>
